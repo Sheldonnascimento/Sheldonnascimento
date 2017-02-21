@@ -1,0 +1,89 @@
+
+
+----------Command------------
+
+Gem install bundler
+Gem install pretest
+Gem install calabash-cucumber
+Gem install calabash-android
+Gem install capybara
+Gem install cucumber
+Gem install rspec
+Gem install pry
+
+Desistalar: gem uninstall
+
+
+---------------subir Git---------------
+git status (modificações)
+git add gitignore
+git commit -m
+git push
+git checkout -b feature1      (Master*)
+git clone (http://github....)
+
+--------------Dependencias-------------
+
+
+XCODE: https://developer.apple.com/download/
+RVM / Rbenv (Versionador)
+HOMEBREW:
+Ruby
+GITHUB instalar
+JAVA SDK
+ANDROID STUDIO
+calabash-android
+cucumber
+calabash-cucumber
+
+
+--------------scripts-----------------
+cucumber
+cucumber features/exemplo.feature
+cucumber features/exemplo.feature:20
+cucumber --tags @exemplo
+
+
+ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑComandosÑÑÑÑÑÑÑÑÑÑÑ
+
+gem list
+
+calabash-ios console calsmoke_cal
+
+Query"*ID:'actions_bar_title'"
+
+flash"*test:'chapterXXXXXXX'"
+
+screenshot("/data/screenshots/imagem.png")
+
+
+pretest create Nome_do_Projeto  --ios
+				--android
+
+reinstall apps
+
+
+start_test_server_in_background (Mobile)
+
+calabash-android run Nome_do_APK/API
+
+mkdir (Criar pasta)
+open_(Nome do arquivo)
+
+ADB devices (lista de aparelhos conectados)
+
+query("*id:'id_do_elemento'")
+touch("*id:'id_do_elemento'")
+keyboard_enter_text("texto esperado")
+element_does_not_exist("*id:'id_do_elemento'")
+element_exists("*id:'id_do_elemento'")
+wait_for_elements_exists(["*id:'id_do_elemento'", "*id:'id_do_elemento_2'"])
+wait_for_elements_exists("*id:'id_do_elemento'")
+scroll("scrollView", :down)
+uncheck("id_check")
+screenshot("/data/screenshot.png")
+
+
+Time OUT
+wait_for_elements_exists("*id:'id_do_elemento'", timeout:7)
+
